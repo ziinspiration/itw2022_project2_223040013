@@ -1,0 +1,84 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  /* background-color: blue; */
+}
+
+/* Navbar style */
+
+.navbar {
+  /* background-color: darkslategrey !important; */
+  background: transparent;
+}
+
+.nav-link {
+  font-family: arial;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Beranda style */
+.beranda {
+  background-image: url(../img/herofix.jpg);
+  padding: 350px 0;
+  background-size: cover;
+  background-position-y: 30%;
+}
+
+.beranda h1 {
+  color: white;
+  text-shadow: 0 0 5px black;
+}
+
+/* tentang-kami style */
+
+.tentang-kami {
+  padding: 350px 0;
+}
+
+/* service style */
+.service {
+  background-color: grey;
+  padding: 350px 0;
+}
+
+.service img {
+  border-radius: 10px;
+  box-shadow: 0 0 5px black;
+}
+
+.service-card {
+  background-color: rgb(97, 96, 96);
+}
+
+/* gallery style */
+.gallery-project {
+  padding: 350px 0;
+}
+
+.gallery-project h1 {
+  text-align: center;
+  font-family: arial;
+}
+
+/* contact style */
+
+.contact {
+  background-color: grey;
+  padding: 350px 0;
+}
+
+.contact h1 {
+  text-align: center;
+  font-family: arial;
+}
