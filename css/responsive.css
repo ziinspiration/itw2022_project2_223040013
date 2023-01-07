@@ -7,19 +7,38 @@
 
 /* HANDPHONE */
 @media screen and (max-width: 500px) {
+  /* navbar */
+
   .navbar-brand {
     font-size: 10px;
-    margin-left: -80px;
   }
+
+  /* beranda */
 
   .beranda {
     background-position-x: 50%;
     font-size: 20px;
   }
 
+  /* contact */
+
+  .container-contact {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-contact {
+    width: 90%;
+    margin-right: 0% !important;
+    margin-top: 0% !important;
+  }
+
+  /* tentang kami */
+
   .tentang-kami {
     flex-direction: column !important;
     align-items: center;
+    margin: auto;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -30,9 +49,45 @@
     margin-bottom: 10px;
   }
 
+  .tentangimage img {
+    width: 200px;
+  }
+
+  .tentangimage {
+    margin: 0% !important;
+  }
+
+  .tentangtext {
+    margin-right: 0% !important;
+  }
+
+  /* service */
+  .service-text h1 {
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+  }
+
+  .service {
+    background-color: grey;
+    padding: 80px 50px;
+  }
+
   .service-card {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto;
+    border-radius: 20px;
+  }
+
+  .service-image {
+    margin: 0% !important;
+  }
+
+  /* gallery */
+
+  .gallery-content {
+    padding: 0 30px;
   }
 }

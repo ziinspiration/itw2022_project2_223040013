@@ -4,13 +4,11 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
-  /* background-color: blue; */
 }
 
 /* Navbar style */
 
 .navbar {
-  /* background-color: darkslategrey !important; */
   background: transparent;
 }
 
@@ -18,13 +16,14 @@ body {
   font-family: arial;
 }
 
-.nav-link.active {
-  font-weight: bold;
+.navbar-brand {
+  font-size: 18px;
 }
 
-.navbar-brand {
-  font-weight: bold;
-  font-size: 18px;
+.nama-brand {
+  margin-top: 9px !important;
+  font-size: 13px;
+  font-family: arial;
 }
 
 /* Beranda style */
@@ -43,17 +42,16 @@ body {
 /* tentang-kami style */
 
 .tentang-kami {
-  padding: 350px 0;
+  padding: 150px 0;
 }
 
 /* service style */
 .service {
   background-color: grey;
-  padding: 350px 0;
+  padding: 150px 0;
 }
 
 .service img {
-  border-radius: 10px;
   box-shadow: 0 0 5px black;
 }
 
@@ -63,22 +61,29 @@ body {
 
 /* gallery style */
 .gallery-project {
-  padding: 350px 0;
+  padding: 150px 0;
+}
+
+.gallery-content img {
+  width: 700px !important;
 }
 
 .gallery-project h1 {
-  text-align: center;
   font-family: arial;
+  margin-bottom: 100px;
 }
 
 /* contact style */
 
 .contact {
   background-color: grey;
-  padding: 350px 0;
+  padding: 150px 0;
 }
 
 .contact h1 {
-  text-align: center;
-  font-family: arial;
+  font-size: 18px;
+}
+
+.content-contact {
+  width: 50%;
 }
