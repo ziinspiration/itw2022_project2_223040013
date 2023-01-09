@@ -70,7 +70,7 @@
 
   .service {
     background-color: grey;
-    padding: 80px 50px;
+    padding: 80px 30px;
   }
 
   .service-card {
@@ -79,6 +79,18 @@
     align-items: center;
     margin: auto;
     border-radius: 20px;
+  }
+
+  .service-card p {
+    font-size: 12px;
+  }
+
+  .service-card h1 {
+    /* background-color: rgb(133, 132, 132);
+    border-radius: 10px;
+    box-shadow: inset 0 0 3px black; */
+    padding: 10px;
+    margin-bottom: 20px;
   }
 
   .service-image {

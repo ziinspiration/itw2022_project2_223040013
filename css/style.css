@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -51,12 +52,17 @@ body {
   padding: 150px 0;
 }
 
+.service-card p {
+  font-weight: bold !important;
+}
+
 .service img {
   box-shadow: 0 0 5px black;
 }
 
 .service-card {
-  background-color: rgb(97, 96, 96);
+  background: linear-gradient(grey, #aaa, #eee) !important;
+  box-shadow: inset 0 0 2px black;
 }
 
 /* gallery style */
